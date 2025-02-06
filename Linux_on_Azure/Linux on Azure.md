@@ -319,3 +319,5 @@ Step 3: Swap configuration on the Azure Linux Agent
 
       ![Check for updates.](./.attachments/lab9image22.png =950x)
     </details>
+
+[Return to main menu](https://github.com/mitchcr/specialist/blob/main/README.md)
