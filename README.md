@@ -1,4 +1,4 @@
-# Specialist Labs
+# Foundations Labs
 
 Click on the desire module to follow the laboratories: 
 -  [Module 1 - OS Fundamentals I](https://github.com/mitchcr/specialist/blob/main/OS_Fundamentals_I/OS%20Fundamentals%20I.md)
