@@ -754,3 +754,5 @@ Step 5: Add the sticky bit to the folder
   ``` bash
   ls -ld /tmp
   ```
+
+[Return to main menu](https://github.com/mitchcr/specialist/blob/main/README.md)
