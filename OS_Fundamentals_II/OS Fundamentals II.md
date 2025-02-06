@@ -310,3 +310,5 @@ Step 11: Enabling an unit
 
     ![Check for updates.](./.attachments/lab7img17.png =950x)
   </details>
+
+[Return to main menu](https://github.com/mitchcr/specialist/blob/main/README.md)
