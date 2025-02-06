@@ -1,3 +1,4 @@
 # Specialist Labs
 
-![OS Fundamentals I](https://github.com/mitchcr/specialist/blob/main/OS_Fundamentals_I/OS%20Fundamentals%20I.md)
+Click on the desire odule to follow the laboratories: 
+-  [OS Fundamentals I](https://github.com/mitchcr/specialist/blob/main/OS_Fundamentals_I/OS%20Fundamentals%20I.md)
