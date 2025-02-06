@@ -35,7 +35,7 @@ Step 1: Check the provisioning agent
   <details>
     <summary>Screenshot: waagent.conf file filtered</summary>
 
-    ![Check for updates.](./.attachments/lab9image1.png =950x)
+	<img src="./.attachments/lab9image1.png" alt="Check for updates." size=950x>
   </details>
 
 Step 2: Check cloud-init log file
@@ -46,7 +46,7 @@ Step 2: Check cloud-init log file
   <details>
     <summary>Screenshot: checking cloud-config files, the vm in the example was created in November 13th</summary>
 
-    ![Check for updates.](./.attachments/lab9image2.png =950x)
+	<img src="./.attachments/lab9image2.png" alt="Check for updates." size=950x>
   </details>
 
 Step 3: Check waagent provisoning logs
@@ -57,7 +57,7 @@ Step 3: Check waagent provisoning logs
   <details>
     <summary>Screenshot: checking provisioning in waagent.log</summary>
 
-    ![Check for updates.](./.attachments/lab9image3.png =950x)
+	<img src="./.attachments/lab9image3.png" alt="Check for updates." size=950x>
   </details>
 
 ###  Scenario 2: WAAgent and extensions
@@ -84,12 +84,12 @@ Step 2: Check the linux agent version
   <details>
     <summary>Screenshot: linux agent version in Red Hat Enterprise Linux</summary>
 
-    ![Check for updates.](./.attachments/lab9image4.png =950x)
+	<img src="./.attachments/lab9image4.png" alt="Check for updates." size=950x>
   </details>
   <details>
     <summary>Screenshot: linux agent version in Ubuntu</summary>
 
-    ![Check for updates.](./.attachments/lab9image5.png =950x)
+	<img src="./.attachments/lab9image5.png" alt="Check for updates." size=950x>
   </details>
 
 Step 3: Check the linux agent version package
@@ -101,7 +101,7 @@ Step 3: Check the linux agent version package
     <details>
       <summary>Screenshot: check a package in Enterprise Linux based distribution</summary>
 
-      ![Check for updates.](./.attachments/lab9image6.png =950x)
+	<img src="./.attachments/lab9image6.png" alt="Check for updates." size=950x>
     </details>
 
   - Ubuntu (Debian or any Debian based distribution)
@@ -111,7 +111,7 @@ Step 3: Check the linux agent version package
     <details>
       <summary>Screenshot: check a package in Debian based distribution</summary>
 
-      ![Check for updates.](./.attachments/lab9image7.png =950x)
+	<img src="./.attachments/lab9image7.png" alt="Check for updates." size=950x>
     </details>
 
 Step 4: Check the status of the azure linux agent systemd unit
@@ -122,7 +122,7 @@ Step 4: Check the status of the azure linux agent systemd unit
   <details>
     <summary>Screenshot: check a package status in Red Hat Enterprise Linux</summary>
 
-    ![Check for updates.](./.attachments/lab9image8.png =950x)
+	<img src="./.attachments/lab9image8.png" alt="Check for updates." size=950x>
   </details>
 
 - Ubuntu (Debian or any Debian based distribution)
@@ -132,7 +132,7 @@ Step 4: Check the status of the azure linux agent systemd unit
   <details>
     <summary>Screenshot: check a package status in Debian based distribution</summary>
 
-    ![Check for updates.](./.attachments/lab9image9.png =950x)
+	<img src="./.attachments/lab9image9.png" alt="Check for updates." size=950x>
   </details>
 
 Step 5: Check the linux agent logs
@@ -143,7 +143,7 @@ Step 5: Check the linux agent logs
   <details>
     <summary>Screenshot: check agent log file (first part of the output)</summary>
 
-    ![Check for updates.](./.attachments/lab9image10.png =950x)
+	<img src="./.attachments/lab9image10.png" alt="Check for updates." size=950x>
   </details>
 
 Step 6: Check the linux agent configuration file
@@ -154,7 +154,7 @@ Step 6: Check the linux agent configuration file
   <details>
     <summary>Screenshot: check agent configuration file (first part of the output)</summary>
 
-    ![Check for updates.](./.attachments/lab9image11.png =950x)
+	<img src="./.attachments/lab9image11.png" alt="Check for updates." size=950x>
   </details>
 
 Step 7: Password reset using the Azure Portal
@@ -162,7 +162,7 @@ Step 7: Password reset using the Azure Portal
   <details>
     <summary>Screenshot: change the password from the Azure Portal</summary>
 
-    ![Check for updates.](./.attachments/lab9image12.png =950x)
+	<img src="./.attachments/lab9image12.png" alt="Check for updates." size=950x>
   </details>
 
 Step 8: Check the VMAccess extension
@@ -170,7 +170,7 @@ Step 8: Check the VMAccess extension
   <details>
     <summary>Screenshot: Check the status of the extensions in the Azure Portal</summary>
 
-    ![Check for updates.](./.attachments/lab9image13.png =950x)
+	<img src="./.attachments/lab9image13.png" alt="Check for updates." size=950x>
   </details>
 
 Step 9: Check the logs for the extension and the linux agent
@@ -183,7 +183,7 @@ Step 9: Check the logs for the extension and the linux agent
   <details>
     <summary>Screenshot: check extension log</summary>
 
-    ![Check for updates.](./.attachments/lab9image14.png =950x)
+	<img src="./.attachments/lab9image14.png" alt="Check for updates." size=950x>
   </details>
 
 ###  Scenario 3: WAAgent and extensions
@@ -203,7 +203,7 @@ Step 1: Connecting to the VM Lab 9 Scenario 3
   <details>
     <summary>Screenshot: switch to root account</summary>
 
-    ![Check for updates.](./.attachments/lab9image15.png =950x)
+	<img src="./.attachments/lab9image15.png" alt="Check for updates." size=950x>
   </details>
 
 Step 2: Check the available memory and swap on the system
@@ -221,7 +221,7 @@ Step 2: Check the available memory and swap on the system
   <details>
     <summary>Screenshot: check swap</summary>
 
-    ![Check for updates.](./.attachments/lab9image16.png =950x)
+	<img src="./.attachments/lab9image16.png" alt="Check for updates." size=950x>
   </details>
 
 Step 3: Swap configuration on the Azure Linux Agent
@@ -247,7 +247,7 @@ Step 3: Swap configuration on the Azure Linux Agent
     <details>
       <summary>Screenshot: check on changed values</summary>
 
-      ![Check for updates.](./.attachments/lab9image17.png =950x)
+	<img src="./.attachments/lab9image17.png" alt="Check for updates." size=950x>
     </details>
 
   - Restart the VM agent 
@@ -258,7 +258,7 @@ Step 3: Swap configuration on the Azure Linux Agent
        <details>
          <summary>Screenshot: restart agent</summary>
 
-         ![Check for updates.](./.attachments/lab9image18a.png =950x)
+	<img src="./.attachments/lab9image18a.png" alt="Check for updates." size=950x>
        </details>
     
     - For Red Hat Enterprise Linux based distributions and SuSE
@@ -268,7 +268,7 @@ Step 3: Swap configuration on the Azure Linux Agent
       <details>
         <summary>Screenshot: restart agent</summary>
 
-        ![Check for updates.](./.attachments/lab9image18b.png =950x)
+	<img src="./.attachments/lab9image18b.png" alt="Check for updates." size=950x>
       </details>
 
   - Validate that the swap file was created as expected
@@ -279,7 +279,7 @@ Step 3: Swap configuration on the Azure Linux Agent
     <details>
       <summary>Screenshot: check swap </summary>
 
-      ![Check for updates.](./.attachments/lab9image19.png =950x)
+	<img src="./.attachments/lab9image19.png" alt="Check for updates." size=950x>
     </details>
 
   ######  Disable Swap
@@ -295,7 +295,7 @@ Step 3: Swap configuration on the Azure Linux Agent
     <details>
       <summary>Screenshot: check swap configuration file </summary>
 
-      ![Check for updates.](./.attachments/lab9image20.png =950x)
+	<img src="./.attachments/lab9image20.png" alt="Check for updates." size=950x>
     </details>
 
   - Restart the VM
@@ -305,7 +305,7 @@ Step 3: Swap configuration on the Azure Linux Agent
     <details>
       <summary>Screenshot: restarting the VM</summary>
 
-      ![Check for updates.](./.attachments/lab9image21.png =950x)
+	<img src="./.attachments/lab9image21.png" alt="Check for updates." size=950x>
     </details>
 
   - Connect to the VM, switch to root account and validate the swap got disabled
@@ -317,7 +317,7 @@ Step 3: Swap configuration on the Azure Linux Agent
     <details>
       <summary>Screenshot: checking swap</summary>
 
-      ![Check for updates.](./.attachments/lab9image22.png =950x)
+	<img src="./.attachments/lab9image22.png" alt="Check for updates." size=950x>
     </details>
 
 [Return to main menu](https://github.com/mitchcr/specialist/blob/main/README.md)
