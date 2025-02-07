@@ -47,7 +47,7 @@ Step 2: Identify the right disk
   <details>
     <summary>Screenshot: Identify the disk LUN 0</summary>
 
-    ![Check for updates.](./.attachments/lab11image01.png =950x)
+	<img src="./.attachments/lab11image01.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 3: Create a partition
@@ -79,7 +79,7 @@ Step 3: Create a partition
   <details>
     <summary>Screenshot: Create a new partition on disk LUN 0</summary>
 
-    ![Check for updates.](./.attachments/lab11image02.png =950x)
+	<img src="./.attachments/lab11image02.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 4: Mounting a filesystem
@@ -96,7 +96,7 @@ Step 4: Mounting a filesystem
     <details>
     <summary>Screenshot: Creating a new filesystem</summary>
 
-    ![Check for updates.](./.attachments/lab11image03.png =950x)
+	<img src="./.attachments/lab11image03.png" alt="Check for updates." size=950x>
   </details> 
 
 ### Scenario 2: Create a new filesystem using LVM over a GPT partition
@@ -132,7 +132,7 @@ Step 2: Identify the right disk
   <details>
     <summary>Screenshot: Identify the disk LUN 1</summary>
 
-    ![Check for updates.](./.attachments/lab11image04.png =950x)
+	<img src="./.attachments/lab11image04.png" alt="Check for updates." size=950x>
   </details>
 
 Step 3: Create a partition
@@ -165,7 +165,7 @@ Step 3: Create a partition
   <details>
     <summary>Screenshot: Create a new partition on disk LUN 0</summary>
 
-    ![Check for updates.](./.attachments/lab11image05.png =950x)
+	<img src="./.attachments/lab11image05.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 4: Create the LVM structure
@@ -181,7 +181,7 @@ Step 4: Create the LVM structure
   <details>
     <summary>Screenshot: Create the LVM structure over first partition on LUN 1</summary>
 
-    ![Check for updates.](./.attachments/lab11image06.png =950x)
+	<img src="./.attachments/lab11image06.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 5: Mounting a filesystem
@@ -199,7 +199,7 @@ Step 5: Mounting a filesystem
     <details>
     <summary>Screenshot: Creating a new filesystem</summary>
 
-    ![Check for updates.](./.attachments/lab11image07.png =950x)
+	<img src="./.attachments/lab11image07.png" alt="Check for updates." size=950x>
   </details>
 
 ### Scenario 3: Resize of a filesystem inside a logical volume
@@ -222,7 +222,7 @@ Step 1: Identifing the available free space in a volume group
     <details>
     <summary>Screenshot: Extending a logical volume</summary>
 
-    ![Check for updates.](./.attachments/lab11image08.png =950x)
+	<img src="./.attachments/lab11image08.png" alt="Check for updates." size=950x>
   </details>
 
 Step 2: Extend the logical volume
@@ -241,7 +241,7 @@ Step 2: Extend the logical volume
     <details>
     <summary>Screenshot: Extending an ext4 filesystem</summary>
 
-    ![Check for updates.](./.attachments/lab11image09.png =950x)
+	<img src="./.attachments/lab11image09.png" alt="Check for updates." size=950x>
   </details>
 
 
@@ -271,7 +271,7 @@ Step 1: Identify the right disk
   <details>
     <summary>Screenshot: Identify the disk LUN 2</summary>
 
-    ![Check for updates.](./.attachments/lab11image10.png =950x)
+	<img src="./.attachments/lab11image10.png" alt="Check for updates." size=950x>
   </details>
 
 Step 2: Adding LUN 2 to the volume group
@@ -292,7 +292,7 @@ Step 2: Adding LUN 2 to the volume group
   <details>
     <summary>Screenshot: Extend the logical volume using LUN 2</summary>
 
-    ![Check for updates.](./.attachments/lab11image11.png =950x)
+	<img src="./.attachments/lab11image11.png" alt="Check for updates." size=950x>
   </details>
 
 Step 3: Resize of the filesystem
@@ -305,7 +305,7 @@ Step 3: Resize of the filesystem
   <details>
     <summary>Screenshot: Extend the filesystem</summary>
 
-    ![Check for updates.](./.attachments/lab11image12.png =950x)
+	<img src="./.attachments/lab11image12.png" alt="Check for updates." size=950x>
   </details>
 
 ### Scenario 5: Running filesystem check
@@ -328,7 +328,7 @@ Step 1: Filesystem check ext4 filesystem
   <details>
   <summary>Screenshot: Running a filesystem check ext4</summary>
 
-  ![Check for updates.](./.attachments/lab11image13.png =950x)
+	<img src="./.attachments/lab11image13.png" alt="Check for updates." size=950x>
   </details>
 
 Step 2: Filesystem check xfs filesystem
@@ -346,7 +346,7 @@ Step 2: Filesystem check xfs filesystem
   <details>
   <summary>Screenshot: Running a filesystem check for XFS</summary>
 
-  ![Check for updates.](./.attachments/lab11image14.png =950x)
+	<img src="./.attachments/lab11image14.png" alt="Check for updates." size=950x>
   </details>
 
 [Return to main menu](https://github.com/mitchcr/specialist/blob/main/README.md)

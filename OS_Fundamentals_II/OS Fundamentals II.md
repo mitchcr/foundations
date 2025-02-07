@@ -193,7 +193,7 @@ Step 1: Listing all units
   <details>
     <summary>Screenshot: list state of all units at system startup</summary>
 
-    ![Check for updates.](./.attachments/lab7img7.png =950x)
+	<img src="./.attachments/lab7img7.png" alt="Check for updates." size=950x>
   </details>
 
 Step 2: List units of system type
@@ -204,7 +204,7 @@ Step 2: List units of system type
   <details>
     <summary>Screenshot: list state of service units</summary>
 
-    ![Check for updates.](./.attachments/lab7img8.png =950x)
+	<img src="./.attachments/lab7img8.png" alt="Check for updates." size=950x>
   </details>
 
 Step 3: Check the failed unit
@@ -215,7 +215,7 @@ Step 3: Check the failed unit
   <details>
     <summary>Screenshot: check status of a failed unit</summary>
 
-    ![Check for updates.](./.attachments/lab7img9.png =950x)
+	<img src="./.attachments/lab7img9.png" alt="Check for updates." size=950x>
   </details>
 
 
@@ -227,7 +227,7 @@ Step 4: Check actice units
   <details>
     <summary>Screenshot: list active units</summary>
 
-    ![Check for updates.](./.attachments/lab7img10.png =950x)
+	<img src="./.attachments/lab7img10.png" alt="Check for updates." size=950x>
   </details>
 
 Step 5: List running units
@@ -238,7 +238,7 @@ Step 5: List running units
   <details>
     <summary>Screenshot: list running services</summary>
 
-    ![Check for updates.](./.attachments/lab7img11.png =950x)
+	<img src="./.attachments/lab7img11.png" alt="Check for updates." size=950x>
   </details>
 
 Step 6: View all units
@@ -249,7 +249,7 @@ Step 6: View all units
   <details>
     <summary>Screenshot: list settings for all units</summary>
 
-    ![Check for updates.](./.attachments/lab7img12.png =950x)
+	<img src="./.attachments/lab7img12.png" alt="Check for updates." size=950x>
   </details>
 
 Step 7: List failed units
@@ -260,7 +260,7 @@ Step 7: List failed units
   <details>
     <summary>Screenshot: list failed servicests</summary>
 
-    ![Check for updates.](./.attachments/lab7img13.png =950x)
+	<img src="./.attachments/lab7img13.png" alt="Check for updates." size=950x>
   </details>
 
 Step 8: Working with a systemd unit
@@ -273,7 +273,7 @@ Step 8: Working with a systemd unit
   <details>
     <summary>Screenshot: checking, stopping and starting a service</summary>
 
-    ![Check for updates.](./.attachments/lab7img14.png =950x)
+	<img src="./.attachments/lab7img14.png" alt="Check for updates." size=950x>
   </details>
 
 Step 9: How to check if an unit is enabled
@@ -284,7 +284,7 @@ Step 9: How to check if an unit is enabled
   <details>
     <summary>Screenshot: checking if a service is enabled at system boot</summary>
 
-    ![Check for updates.](./.attachments/lab7img15.png =950x)
+	<img src="./.attachments/lab7img15.png" alt="Check for updates." size=950x>
   </details>
 
 Step 10: Disabling an unit
@@ -296,7 +296,7 @@ Step 10: Disabling an unit
   <details>
     <summary>Screenshot: disable a service and check</summary>
 
-    ![Check for updates.](./.attachments/lab7img16.png =950x)
+	<img src="./.attachments/lab7img16.png" alt="Check for updates." size=950x>
   </details>
 
 Step 11: Enabling an unit
@@ -308,7 +308,7 @@ Step 11: Enabling an unit
   <details>
     <summary>Screenshot: enable a service and check</summary>
 
-    ![Check for updates.](./.attachments/lab7img17.png =950x)
+	<img src="./.attachments/lab7img17.png" alt="Check for updates." size=950x>
   </details>
 
 [Return to main menu](https://github.com/mitchcr/specialist/blob/main/README.md)

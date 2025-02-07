@@ -61,7 +61,7 @@ Step 2: Listing IP Addresses
   <details>
     <summary>Screenshot: Listing IP Addresses</summary>
 
-    ![Check for updates.](./.attachments/lab10image01.png =950x)
+	<img src="./.attachments/lab10image01.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 3: Viewing Routing Table
@@ -92,7 +92,7 @@ Step 3: Viewing Routing Table
   <details>
     <summary>Screenshot: Viewing Routing Table</summary>
 
-    ![Check for updates.](./.attachments/lab10image02.png =950x)
+	<img src="./.attachments/lab10image02.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 4: Checking Interface Status
@@ -113,7 +113,7 @@ Step 4: Checking Interface Status
   <details>
     <summary>Screenshot: Checking Interface Status</summary>
 
-    ![Check for updates.](./.attachments/lab10image03.png =950x)
+	<img src="./.attachments/lab10image03.png" alt="Check for updates." size=950x>
   </details> 
 
 ### Scenario 2 : Show cloud-init logs and network configuration
@@ -140,7 +140,7 @@ Step 2: Check the ```cloud-init.log``` file
   <details>
     <summary>Screenshot: Checking cloud-init.log</summary>
 
-    ![Check for updates.](./.attachments/lab10image04.png =950x)
+	<img src="./.attachments/lab10image04.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 3: Check the ```cloud-init-output.log``` file
@@ -153,7 +153,7 @@ Step 3: Check the ```cloud-init-output.log``` file
   <details>
     <summary>Screenshot: Checking cloud-init-output.log</summary>
 
-    ![Check for updates.](./.attachments/lab10image05.png =950x)
+	<img src="./.attachments/lab10image05.png" alt="Check for updates." size=950x>
   </details> 
 
 
@@ -193,7 +193,7 @@ Step 2: Verify NetworkManager Status
   <details>
     <summary>Screenshot: Checking NetworkManager systemd unit</summary>
 
-    ![Check for updates.](./.attachments/lab10image06.png =950x)
+	<img src="./.attachments/lab10image06.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 3: List NetworkManager connections
@@ -204,7 +204,7 @@ Step 3: List NetworkManager connections
   <details>
     <summary>Screenshot: List all active NetworkManager connections</summary>
 
-    ![Check for updates.](./.attachments/lab10image07.png =950x)
+	<img src="./.attachments/lab10image07.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 4: Review the connection details for ```System eth0```
@@ -227,7 +227,7 @@ Step 4: Review the connection details for ```System eth0```
   <details>
      <summary>Screenshot: Getting information from a connection on NetworkManager</summary>
 
-    ![Check for updates.](./.attachments/lab10image08.png =950x)
+	<img src="./.attachments/lab10image08.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 5: Check the status of cloud-init
@@ -241,7 +241,7 @@ Step 5: Check the status of cloud-init
   <details>
      <summary>Screenshot: Getting information from a connection on cloud-init</summary>
 
-    ![Check for updates.](./.attachments/lab10image09.png =950x)
+	<img src="./.attachments/lab10image09.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 6: Review the main cloud-init configuration file
@@ -264,7 +264,7 @@ Step 6: Review the main cloud-init configuration file
   <details>
      <summary>Screenshot: Getting the network related configuration from cloud-init</summary>
 
-    ![Check for updates.](./.attachments/lab10image10.png =950x)
+	<img src="./.attachments/lab10image10.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 7: Check the traditional network configuration file
@@ -275,7 +275,7 @@ Step 7: Check the traditional network configuration file
   <details>
      <summary>Screenshot: Getting information from the interface eth0</summary>
 
-    ![Check for updates.](./.attachments/lab10image11.png =950x)
+	<img src="./.attachments/lab10image11.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 8: Connecting to the VM lab10sles
@@ -294,7 +294,7 @@ Step 9: Check the status of Wicked
   <details>
      <summary>Screenshot: Check the Wicked systemd unit</summary>
 
-    ![Check for updates.](./.attachments/lab10image12.png =950x)
+	<img src="./.attachments/lab10image12.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 10: Inspect Wicked Configuration
@@ -305,7 +305,7 @@ Step 10: Inspect Wicked Configuration
   <details>
      <summary>Screenshot: Check the Wicked systemd unit</summary>
 
-    ![Check for updates.](./.attachments/lab10image13.png =950x)
+	<img src="./.attachments/lab10image13.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 11: Check the status of cloud-init
@@ -318,7 +318,7 @@ Step 11: Check the status of cloud-init
   <details>
      <summary>Screenshot: Getting information from a connection on NetworkManager</summary>
 
-    ![Check for updates.](./.attachments/lab10image14.png =950x)
+	<img src="./.attachments/lab10image14.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 12: Review the main cloud-init configuration file
@@ -332,7 +332,7 @@ Step 12: Review the main cloud-init configuration file
   <details>
      <summary>Screenshot: Find network definiton on cloud-init</summary>
 
-    ![Check for updates.](./.attachments/lab10image15.png =950x)
+	<img src="./.attachments/lab10image15.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 13: Check the traditional network configuration file
@@ -343,7 +343,7 @@ Step 13: Check the traditional network configuration file
   <details>
      <summary>Screenshot: Getting information from the interface eth0</summary>
 
-    ![Check for updates.](./.attachments/lab10image16.png =950x)
+	<img src="./.attachments/lab10image16.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 14: Connecting to the VM lab10ubuntu
@@ -362,7 +362,7 @@ Step 15: Check the status of systemd-networkd
   <details>
      <summary>Screenshot: Getting information from the interface eth0</summary>
 
-    ![Check for updates.](./.attachments/lab10image17.png =950x)
+	<img src="./.attachments/lab10image17.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 16: Check the status of cloud-init
@@ -375,7 +375,7 @@ Step 16: Check the status of cloud-init
   <details>
      <summary>Screenshot: Getting information from a connection on cloud-init</summary>
 
-    ![Check for updates.](./.attachments/lab10image18.png =950x)
+	<img src="./.attachments/lab10image18.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 17: Review the main cloud-init configuration file
@@ -398,7 +398,7 @@ Step 17: Review the main cloud-init configuration file
   <details>
      <summary>Screenshot: Getting the network related configuration from cloud-init</summary>
 
-    ![Check for updates.](./.attachments/lab10image19.png =950x)
+	<img src="./.attachments/lab10image19.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 18: Verify Netplan Configuration
@@ -410,7 +410,7 @@ Step 18: Verify Netplan Configuration
   <details>
      <summary>Screenshot: List all the configuration files for netplan</summary>
 
-    ![Check for updates.](./.attachments/lab10image20.png =950x)
+	<img src="./.attachments/lab10image20.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 19: Review the contents of each Netplan configuration file
@@ -421,7 +421,7 @@ Step 19: Review the contents of each Netplan configuration file
   <details>
      <summary>Screenshot: Check the content of the netplan file created by cloud-init</summary>
 
-    ![Check for updates.](./.attachments/lab10image21.png =950x)
+	<img src="./.attachments/lab10image21.png" alt="Check for updates." size=950x>
   </details> 
 
 ### Scenario 4 : Disabling networking from cloud-init
@@ -448,7 +448,7 @@ Step 2: Disable networking management in cloud-init
   <details>
      <summary>Screenshot: Disable network management on cloud-init</summary>
 
-    ![Check for updates.](./.attachments/lab10image22.png =950x)
+	<img src="./.attachments/lab10image22.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 3: Verify the change
@@ -460,7 +460,7 @@ Step 3: Verify the change
   <details>
      <summary>Screenshot: Check the configuration include is correct</summary>
 
-    ![Check for updates.](./.attachments/lab10image23.png =950x)
+	<img src="./.attachments/lab10image23.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 4: Stop the VM
@@ -469,7 +469,7 @@ Step 4: Stop the VM
   <details>
      <summary>Screenshot: Deallocate the VM</summary>
 
-    ![Check for updates.](./.attachments/lab10image24.png =950x)
+	<img src="./.attachments/lab10image24.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 5: Attach the new NIC
@@ -478,7 +478,7 @@ Step 5: Attach the new NIC
   <details>
      <summary>Screenshot: Attach a new network interface</summary>
 
-    ![Check for updates.](./.attachments/lab10image25.png =950x)
+	<img src="./.attachments/lab10image25.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 6: Deattach the old NIC
@@ -487,7 +487,7 @@ Step 6: Deattach the old NIC
   <details>
      <summary>Screenshot: Deattach the old network interface</summary>
 
-    ![Check for updates.](./.attachments/lab10image26.png =950x)
+	<img src="./.attachments/lab10image26.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 7: Start the VM
@@ -496,7 +496,7 @@ Step 7: Start the VM
   <details>
      <summary>Screenshot: Start the VM back</summary>
 
-    ![Check for updates.](./.attachments/lab10image27.png =950x)
+	<img src="./.attachments/lab10image27.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 8: Connect to the VM using the serial console
@@ -505,7 +505,7 @@ Step 8: Connect to the VM using the serial console
   <details>
      <summary>Screenshot: Connect back to the VM using the Serial Console</summary>
 
-    ![Check for updates.](./.attachments/lab10image28.png =950x)
+	<img src="./.attachments/lab10image28.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 9: Check current NIC hardware address
@@ -520,7 +520,7 @@ Step 9: Check current NIC hardware address
   <details>
      <summary>Screenshot: Return the the network management to cloud-init</summary>
 
-    ![Check for updates.](./.attachments/lab10image29.png =950x)
+	<img src="./.attachments/lab10image29.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 10: Restore the cloud-init network manangement
@@ -542,7 +542,7 @@ Step 11: Connect to the VM
   <details>
      <summary>Screenshot: Get information about the NIC MAC</summary>
 
-    ![Check for updates.](./.attachments/lab10image31.png =950x)
+	<img src="./.attachments/lab10image31.png" alt="Check for updates." size=950x>
   </details> 
 
 ### Scenario 5 : Setting custom DNS and Domain
@@ -563,7 +563,7 @@ Step 2: Changing to a custom DNS on the vnet from the Azure Portal
   <details>
      <summary>Screenshot: Finding the VNET</summary>
 
-    ![Check for updates.](./.attachments/lab10image32.png =950x)
+	<img src="./.attachments/lab10image32.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 3: Add DNS IP addresses to the VNET
@@ -574,7 +574,7 @@ Step 3: Add DNS IP addresses to the VNET
   <details>
      <summary>Screenshot: Changing the DNS on the VNET</summary>
 
-    ![Check for updates.](./.attachments/lab10image33.png =950x)
+	<img src="./.attachments/lab10image33.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 4: Checking the DNS servers change
@@ -586,7 +586,7 @@ Step 4: Checking the DNS servers change
   <details>
      <summary>Screenshot: Check the resolv.conf</summary>
 
-    ![Check for updates.](./.attachments/lab10image34.png =950x)
+	<img src="./.attachments/lab10image34.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 5: Setting custom search domains
@@ -599,7 +599,7 @@ Step 5: Setting custom search domains
   <details>
      <summary>Screenshot: Change the search domain and check the resolv.conf</summary>
 
-    ![Check for updates.](./.attachments/lab10image35.png =950x)
+	<img src="./.attachments/lab10image35.png" alt="Check for updates." size=950x>
   </details> 
 
 ### Scenario 6 : Check connection for a webserver
@@ -629,7 +629,7 @@ Step 2: Check the apache webserver is running
   <details>
      <summary>Screenshot: Check the webserver is running and binding the correct port</summary>
 
-    ![Check for updates.](./.attachments/lab10image36.png =950x)
+	<img src="./.attachments/lab10image36.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 3: Check SELinux
@@ -642,7 +642,7 @@ Step 3: Check SELinux
   <details>
      <summary>Screenshot: Check the webserver is running and binding the correct port</summary>
 
-    ![Check for updates.](./.attachments/lab10image37.png =950x)
+	<img src="./.attachments/lab10image37.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 4: Check firewalld
@@ -655,7 +655,7 @@ Step 4: Check firewalld
   <details>
      <summary>Screenshot: Check the webserver is running and binding the correct port</summary>
 
-    ![Check for updates.](./.attachments/lab10image38.png =950x)
+	<img src="./.attachments/lab10image38.png" alt="Check for updates." size=950x>
   </details> 
 
 Step 5: Capturing Traffic for Port 80 Using tcpdump
@@ -667,7 +667,7 @@ Step 5: Capturing Traffic for Port 80 Using tcpdump
   <details>
      <summary>Screenshot: Capture traffic for port 80, exclude from the Wire server</summary>
 
-    ![Check for updates.](./.attachments/lab10image39.png =950x)
+	<img src="./.attachments/lab10image39.png" alt="Check for updates." size=950x>
   </details> 
 
   > **Note:** The parameter ```-w``` can be used to save the capture in a pcap file
