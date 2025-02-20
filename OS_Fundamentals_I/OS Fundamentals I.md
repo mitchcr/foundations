@@ -1,5 +1,4 @@
 [[_TOC_]]
-
 # Module 1 - OS Fundamentals I Laboratories
 
 ## Lab 1 - WSL2 And Cloud Shell
