@@ -15,15 +15,17 @@
 
 ### Scenario 1: WSL and Windows Terminal
 
+This lab guides you through the steps to install WSL. If you’re unable to install the software on your work computer, we provide an alternative solution. However, due to our current subscription management, you will need to use Cloud Shell after installing WSL in this setup. This won’t be a problem if you can install WSL on your work laptop.
+
 #### Deployment Lab 1 Scenario 1
 
 Step 1: Deploy a Windows 11
 
-
-- You can use your PC to complete this lab which it's the most recommended, however you could use a new Azure Windows 11 VM, if you are not allowed to install WSL in your PC.  If you need to create the Azure Windows 11 VM please do it using the link below:
+- You can complete this lab using your work computer, which is the recommended option. However, we understand that some of you may not be able to install WSL or other software on your work laptop. If that’s the case, please use a new Azure Windows 11 VM by following the link below:
 
   [![Click to deploy](https://aka.ms/deploytoazurebutton)](https://labboxprod.azurewebsites.net/api/LabBox?url=https://dev.azure.com/LinuxNinjas/Azure%20Linux%20Academy%20-%20CSS/_git/AzureLinuxAcademy?path=/Azure%20Linux%20Academy/Azure_Linux_Foundation/Module%201%20-%20OS%20Fundamentals%20I/Labs/Lab01windows11.json)  
 
+ > If  you're having size issues while deploying the VM it could be due to limitations in the Region, try changing it.
 
 #### Instructions Lab 1 Scenario 1 
 
@@ -32,7 +34,7 @@ Step 1: Check for Updates
   <details>
     <summary>Screenshot: Check for Updates</summary>
 
-	<img src="./.attachments/module01_001.png" alt="Check for updates." size=950x>
+    ![Check for updates.](./.attachments/module01_001.png =950x)
   </details>
 
 Step 2: Install WSL
@@ -43,7 +45,7 @@ Step 2: Install WSL
   <details>
     <summary>Screenshot: Install WSL</summary>
 
-	<img src="./.attachments/module01_002.png" alt="Execute wsl --install." size=950x>
+    ![Execute wsl --install.](./.attachments/module01_002.png =950x)
   </details>
 
 Step 3: Finish Ubuntu installation
@@ -51,7 +53,7 @@ Step 3: Finish Ubuntu installation
   <details>
     <summary>Screenshot: Finish Ubuntu Installation</summary>
 
-	<img src="./.attachments/module01_003.png" alt="Ubuntu installation." size=950x>
+    ![Ubuntu installation.](./.attachments/module01_003.png =950x)
   </details>
 
 Step 4: Get Windows Terminal
@@ -59,7 +61,7 @@ Step 4: Get Windows Terminal
   <details>
     <summary>Screenshot: Windows Terminal</summary>
 
-	<img src="./.attachments/module01_004.png" alt="Windows Terminal installation." size=950x>
+    ![Windows Terminal installation.](./.attachments/module01_004.png =950x)
   </details>
 
 Step 5: Open Ubuntu
@@ -67,7 +69,7 @@ Step 5: Open Ubuntu
   <details>
     <summary>Screenshot: Open Ubuntu</summary>
 
-	<img src="./.attachments/module01_005.png" alt="Windows Terminal installation." size=950x>
+    ![Windows Terminal installation.](./.attachments/module01_005.png =950x)
   </details>
 
 Step 6: Install Linux Software Repository for Microsoft Products
@@ -97,7 +99,7 @@ Step 6: Install Linux Software Repository for Microsoft Products
   <details>
     <summary>Screenshot: Install Linux Software Repository for Microsoft Products</summary>
 
-	<img src="./.attachments/module01_006.png" alt="Add Linux Software Repository for Microsoft Products." size=950x>
+    ![Add Linux Software Repository for Microsoft Products.](./.attachments/module01_006.png =950x)
   </details>
 
 Step 7: Install Azure CLI
@@ -108,12 +110,12 @@ Step 7: Install Azure CLI
   <details>
     <summary>Screenshot: Install Azure CLI</summary>
 
-	<img src="./.attachments/module01_007.png" alt="Install Azure CLI." size=950x>
+    ![Install Azure CLI.](./.attachments/module01_007.png =950x)
   </details>
 
 Step 8: Log in to Azure
 - By default it will try to open a web browser if it's available. With the option ```--use-device-code``` it will stop using any internal web browser and it will generate a code so it can be used at [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin).
-  > This method is not supported if you have a MCAPS Azure Subscription.
+  > This method is not supported if you have a MCAPS Azure Subscription, if you're using one please proceed to use cloud shell from Azure Portal and jump to step 9.
 
   ``` bash
   az login --use-device-code
@@ -121,7 +123,7 @@ Step 8: Log in to Azure
   <details>
     <summary>Screenshot: Log in to Azure</summary>
 
-	<img src="./.attachments/module01_008.png" alt="Log in to Azure." size=950x>
+    ![Log in to Azure.](./.attachments/module01_008.png =950x)
   </details>
 
 Step 9: Using Azure CLI
@@ -135,7 +137,7 @@ Step 9: Using Azure CLI
   <details>
     <summary>Screenshot: List Azure Subscriptions and set the default</summary>
 
-	<img src="./.attachments/module01_009.png" alt="Get subscriptions and define default." size=950x>
+    ![Get subscriptions and define default.](./.attachments/module01_009.png =950x)
   </details>
 
 Step 10: Azure CLI Help
@@ -163,7 +165,7 @@ Step 11: Create foundationvm1 VM
   <details>
     <summary>Screenshot: Create resource group and foundationvm1 VM</summary>
 
-	<img src="./.attachments/module01_010.png" alt="Create a foundationvm1 using Azure CLI." size=950x>
+    ![Create a foundationvm1 using Azure CLI.](./.attachments/module01_010.png =950x)
     > Notice the files inside the directory .ssh ```id_rsa``` is the ssh
     > private key and ```id_rsa.pub``` is the ssh public key.
   </details>
@@ -182,7 +184,7 @@ Step 12: Create foundationvm2 VM
   <details>
     <summary>Screenshot: Create foundationvm2 VM</summary>
 
-	<img src="./.attachments/module01_011.png" alt="Create foundationvm2 VM." size=950x>
+    ![Create foundationvm2 VM.](./.attachments/module01_011.png =950x)
   </details>
 
 ### Scenario 2: Using Azure Cloud Shell
@@ -199,7 +201,7 @@ Step 1: Opening Azure Cloud Shell
   <details>
     <summary>Screenshot: Using Azure Cloud Shell</summary>
 
-	<img src="./.attachments/module01_012.png" alt="Open Azure Cloud Shell." size=950x>
+    ![Open Azure Cloud Shell.](./.attachments/module01_012.png =950x)
   </details>
 
 Step 2: Azure Cloud Shell
@@ -213,7 +215,7 @@ Step 2: Azure Cloud Shell
   <details>
     <summary>Screenshot: Initial use of Azure Cloud Shell</summary>
 
-	<img src="./.attachments/module01_013.png" alt="Using Azure Cloud Shell." size=950x>
+    ![Using Azure Cloud Shell.](./.attachments/module01_013.png =950x)
   </details>
 
 Step 3: Connect to foundationvm1
@@ -229,7 +231,7 @@ Step 3: Connect to foundationvm1
   <details>
     <summary>Screenshot: Connection to foundationvm1 from Azure Cloud Shell</summary>
 
-	<img src="./.attachments/module01_014.png" alt="Connect to foundationvm1." size=950x>
+    ![Connect to foundationvm1.](./.attachments/module01_014.png =950x)
   </details>
 
 Step 4: Generate new ssh keys
@@ -244,7 +246,7 @@ Step 4: Generate new ssh keys
   <details>
     <summary>Screenshot: Create a new set of ssh keys</summary>
 
-	<img src="./.attachments/module01_015.png" alt="Generate new ssh keys." size=950x>
+    ![Generate new ssh keys.](./.attachments/module01_015.png =950x)
   </details>
 
 Step 5: Update the VM's user information on foundationvm1
@@ -261,7 +263,7 @@ Step 5: Update the VM's user information on foundationvm1
   <details>
     <summary>Screenshot: Update ssh key</summary>
 
-	<img src="./.attachments/module01_016.png" alt="Update ssh key on foundationvm1." size=950x>
+    ![Update ssh key on foundationvm1.](./.attachments/module01_016.png =950x)
   </details>
 
 ##  Lab 2 - User and groups administration
@@ -289,7 +291,7 @@ Step 1: Create a list of users through the file /etc/passwd
   <details>
     <summary>Screenshot: List users on the system using the file /etc/passwd</summary>
 
-	<img src="./.attachments/module01_017.png" alt="Execute cat /etc/passwd" size=950x>
+    ![Execute cat /etc/passwd](./.attachments/module01_017.png =950x)
   </details>
 
 Step 2: Create a list of users through getent
@@ -300,7 +302,7 @@ Step 2: Create a list of users through getent
   <details>
     <summary>Screenshot: List users on the system using getent</summary>
 
-	<img src="./.attachments/module01_018.png" alt="Execute getent passwd." size=950x>
+    ![Execute getent passwd.](./.attachments/module01_018.png =950x)
   </details>
 
 Step 3: Create some users
@@ -321,7 +323,7 @@ Step 3: Create some users
     <details>
     <summary>Screenshot: Create four users with a loop</summary>
 
-	<img src="./.attachments/module01_019.png" alt="Create several users." size=950x>
+    ![Create several users.](./.attachments/module01_019.png =950x)
     </details>
 
 Step 4: Set the password for created users
@@ -341,12 +343,12 @@ Step 4: Set the password for created users
   <details>
     <summary>Screenshot: Change the password for all the users, batch mode and manually for Ubuntu and Debian</summary>
 
-	<img src="./.attachments/module01_020.png" alt="Change user's passwords." size=950x>
+    ![Change user's passwords.](./.attachments/module01_020.png =950x)
   </details>
   <details>
     <summary>Screenshot: Change the password for all the users, batch mode in other distributions</summary>
 
-	<img src="./.attachments/module01_021.png" alt="Change user's passwords." size=950x>
+    ![Change user's passwords.](./.attachments/module01_021.png =950x)
   </details>
 
   > For other distributions the same passwd could be use with the flag --stdin
@@ -365,7 +367,7 @@ Step 5: Make sure the password authentication is enabled for sshd
   <details>
     <summary>Screenshot: Change the PasswordAuthentication parameter on /etc/ssh/sshd_config</summary>
 
-	<img src="./.attachments/module01_022.png" alt="Change PasswordAuthentication." size=950x>
+    ![Change PasswordAuthentication.](./.attachments/module01_022.png =950x)
   </details>
 
 Step 6: Delete some users
@@ -381,7 +383,7 @@ Step 6: Delete some users
   <details>
     <summary>Screenshot: Delete user01 and user02</summary>
 
-	<img src="./.attachments/module01_023.png" alt="Delete users." size=950x>
+    ![Delete users.](./.attachments/module01_023.png =950x)
   </details>
 
 - Check the latest lines in groups file on the system.
@@ -391,7 +393,7 @@ Step 6: Delete some users
   <details>
     <summary>Screenshot: Check current groups</summary>
 
-	<img src="./.attachments/module01_024.png" alt="Check groups." size=950x>
+    ![Check groups.](./.attachments/module01_024.png =950x)
   </details>
 
   > For each user a new group has been created using the same name. As the users are removed, those groups are removed as well
@@ -411,7 +413,7 @@ Step 7: Create additional groups and assign users to those groups
   <details>
     <summary>Screenshot: Create groups and assign those groups to users</summary>
 
-	<img src="./.attachments/module01_025.png" alt="Groups administration." size=950x>
+    ![Groups administration.](./.attachments/module01_025.png =950x)
   </details>
 
 ## Lab 3 - File operations, manipulating and finding files
@@ -443,7 +445,7 @@ Step 1: Create an empty file inside a new directory
   <details>
     <summary>Screenshot: Create an empty file inside a new directory</summary>
 
-	<img src="./.attachments/module01_026.png" alt="Execute create empty file inside a new directory" size=950x>
+    ![Execute create empty file inside a new directory](./.attachments/module01_026.png =950x)
   </details>
 
   > The directory ~ refers to the actual home directory
@@ -461,7 +463,7 @@ Step 2: Create files using redirection
   <details>
     <summary>Screenshot: Create an empty file inside a new directory</summary>
 
-	<img src="./.attachments/module01_027.png" alt="Create files using redirection" size=950x>
+    ![Create files using redirection](./.attachments/module01_027.png =950x)
   </details>
 
 Step 3: Copy and move the test files
@@ -479,7 +481,7 @@ Step 3: Copy and move the test files
   <details>
     <summary>Screenshot: Copy, moving and renaming</summary>
 
-	<img src="./.attachments/module01_028.png" alt="Copy, renaming and moving files" size=950x>
+    ![Copy, renaming and moving files](./.attachments/module01_028.png =950x)
   </details>
 
   > Notice sudo may or may not ask for your password depending in the sudoers configuration
@@ -495,7 +497,7 @@ Step 4: Finding files in the system
   <details>
     <summary>Screenshot: Finding files</summary>
 
-	<img src="./.attachments/module01_029.png" alt="Finding files" size=950x>
+    ![Finding files](./.attachments/module01_029.png =950x)
   </details>
 
   > Notice sudo may be required to find files if the root user is not been used to avoid permission denied errors
@@ -512,7 +514,7 @@ Step 5: Deleting directory used on this lab
   <details>
     <summary>Screenshot: Deleting a directory</summary>
 
-	<img src="./.attachments/module01_030.png" alt="Finding files" size=950x>
+    ![Finding files](./.attachments/module01_030.png =950x)
   </details>
 
   > Notice rmdir will only work only if the directory has no content. If it's required to delete a directory that contains files, it's required to use rm -r which it will delete everything
@@ -538,13 +540,13 @@ Step 1: Install the stress utility
 - Using the VM foundationvm1 from the previous lab1. Switch to root and install the utility ```stress``` run the command. Using this command, start a stress test using 4 CPUs
   ``` bash
   sudo -i 
-  apt -y install stress
-  stress -c 4
+  apt -y install stress-ng
+  stress-ng -c 4
   ```
   <details>
     <summary>Screenshot: Install and run the stress utility</summary>
 
-	<img src="./.attachments/module01_031.png" alt="Install and run stress utility" size=950x>
+    ![Install and run stress utility](./.attachments/module01_031.png =950x)
   </details>
 
   > The execution of the stress utility is running in the foreground. Leave the process running in this terminal!
@@ -558,7 +560,8 @@ Step 2: CPU information
   <details>
     <summary>Screenshot: Get the CPU information</summary>
 
-	<img src="./.attachments/module01_032.png" alt="List CPU details" size=950x>
+    ![List CPU details](./.attachments/module01_032a.png =950x)
+    ![List CPU details](./.attachments/module01_032b.png =950x)
   </details>
 
   > Notice even though the model name of the CPU may indicate certain amount of cores this is only for the host, the VM will have just a fraction of the real numbers on the host. For example foundationvm1 appears as an Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz which on Intel's product details says 26 cores and 52 threads, the VM reports 2 cores and 2 threads for a total of 4 CPUs. The relationship ratios between physical core and vCPU may vary depending on VM SKU family https://learn.microsoft.com/en-us/azure/virtual-machines/acu
@@ -572,7 +575,7 @@ Step 3: Memory information
   <details>
     <summary>Screenshot: Get the memory information</summary>
 
-	<img src="./.attachments/module01_033.png" alt="List memory details" size=950x>
+    ![List memory details](./.attachments/module01_033.png =950x)
   </details>
 
   > Notice sudo may or may not ask for your password depending in the sudoers configuration
@@ -585,7 +588,7 @@ Step 4: Using top
   <details>
     <summary>Screenshot: Executing top</summary>
 
-	<img src="./.attachments/module01_034.png" alt="Executing top" size=950x>
+    ![Executing top](./.attachments/module01_034.png =950x)
   </details>
 
   > Notice the PID number that is associated with each stress process as well as check the %CPU with the CPU consumption details. Those are the top CPU consumers at this moment.
@@ -597,19 +600,25 @@ Step 5: Listing processes
   ``` bash
   ps -ef
   ps aux
-  pgrep
+  pgrep -u root -a
   ```
   <details>
     <summary>Screenshot: Listing processes</summary>
 
-	<img src="./.attachments/module01_035.png" alt="Using ps and pgrep" size=950x>
+    ![Using ps and pgrep](./.attachments/module01_035a.png =950x)
+    ![Using ps and pgrep](./.attachments/module01_035b.png =950x)
+    ![Using ps and pgrep](./.attachments/module01_035c.png =950x)
   </details>
+
+
 
    | The ps accepts several kinds of options: |
    |------------------------------------------|
    | UNIX options, which may be grouped and must be preceded by a dash.
    BSD options, which may be grouped and must not be used with a dash.
    GNU long options, which are preceded by two dashes. |
+
+   > The pgrep command look up, signal, or wait for processes based on name and other attributes. Check on more options with:  pgrep --help or man pgrep
 
    
 ## Lab 5 - File permissions and ownership
@@ -631,9 +640,16 @@ Step 5: Listing processes
 
 Step 1: Create a directory
 - Using the VM foundationvm1 from the previous lab1. Create a directory called ```data``` under your home directory with following command.
-  ``` bash
-  mkdir ~/data
+
+  ```bash
+   mkdir ~/data
   ```
+  <details>
+  <summary>Screenshot: Creating a directory</summary>
+
+  ![Creating a directory](./.attachments/module01_036.png =950x)
+  </details>
+
 
 Step 2: Create a file
 - Create a file called ```filename.txt``` inside the directory ```~/data``` and review its permissions.
@@ -642,6 +658,12 @@ Step 2: Create a file
   touch filename.txt
   ls -l filename.txt
   ```
+  <details>
+  <summary>Screenshot: create a file</summary>
+
+  ![Create a file](./.attachments/module01_037.png =950x)
+    
+  </details>
 
 Step 3: Set the permissions
 - Ensure the starting premissions are read, write, execute for you (owner), you can choose to execute one of the following two commands as both do the same thing.
@@ -649,19 +671,40 @@ Step 3: Set the permissions
   chmod -v u=rwx,g=,o= filename.txt
   chmod 700 filename.txt
   ```
+  <details>
+  <summary>Screenshot: Set permissions</summary>
+
+  ![Set permissions](./.attachments/module01_038.png =950x)
+    
+  </details>
+
 
 Step 4: Check the permissions
 - Verify that your user has read,write and execute permissions on the file, while groups and other do not have any permisos.
   ``` bash
   ls -l filename.txt
   ```
+  <details>
+  <summary>Screenshot: check permissions</summary>
+
+  ![check permissions](./.attachments/module01_039.png =950x)
+    
+  </details>
 
 Step 5: Change permissions
 - Modify the filename.txt permissions again by adding read an write permissions to the group and read only access to other users. Again you can choose to execute any of the following two command as both do the same thing.
   ``` bash
   chmod -v g+rw,o+r filename.txt
   chmod 764 filename.txt
+  ls -l filename.txt
   ```
+
+  <details>
+  <summary>Screenshot: change permissions</summary>
+
+  ![change permissions](./.attachments/module01_040.png =950x)
+    
+  </details>
 
 ### Scenario 2: Modify file and directory ownership
 
@@ -674,6 +717,13 @@ Step 1: Create a new directory
   cd ~
   mkdir ~/newdir
   ```
+  <details>
+  <summary>Screenshot: Create directory</summary>
+
+  ![create directory](./.attachments/module01_041.png =950x)
+    
+  </details>
+
 
 Step 2: Change ownership of the directory
 - Check the permissions of ```~/newdir``` and then change the ownership.
@@ -681,12 +731,27 @@ Step 2: Change ownership of the directory
   ls -ld ~/newdir
   sudo chown root ~/newdir
   ```
+  <details>
+  <summary>Screenshot: Change directory ownership</summary>
+
+  ![change directory ownership](./.attachments/module01_042.png =950x)
+    
+  </details>
+
 
 Step 3: List the changes
 - After the change, check on the differences.
   ```bash
-  sudo -ls -ld ~/newdir
+  ls -ld ~/newdir
   ```
+
+  <details>
+  <summary>Screenshot: Listing changes</summary>
+
+  ![list changes](./.attachments/module01_043.png =950x)
+    
+  </details>
+
 
 Step 4: Change group ownership
 - Same as user ownership, change the group ownership of the directory. Check the results
@@ -694,12 +759,26 @@ Step 4: Change group ownership
   sudo chgrp root ~/newdir
   sudo ls -ld ~/newdir
   ```
+  <details>
+  <summary>Screenshot: Change group ownership</summary>
+
+  ![Change group ownership](./.attachments/module01_044.png =950x)
+    
+  </details>
+
 
 Step 5: Another way to change user and group ownership
 - The command chown can change ownership for user and group of a file in a single command:
   ```bash
   sudo chown root:root ~/newdir
   ```
+  <details>
+  <summary>Screenshot: change ownership</summary>
+
+  ![Change ownership](./.attachments/module01_045.png =950x)
+    
+  </details>
+
 
 ### Scenario 3: Special permissions
 
@@ -712,6 +791,13 @@ Step 1: Using the VM foundationvm1 create a file ```special.sh```
   touch special.sh
   ls -l special.sh
   ```
+  <details>
+  <summary>Screenshot: Creating file</summary>
+
+  ![Creating file](./.attachments/module01_046.png =950x)
+    
+  </details>
+
 
 Step 2: Set special permission
 - Set SUID permission for the file ```special.sh``` and verify the permission.
@@ -719,10 +805,25 @@ Step 2: Set special permission
   chmod u+s special.sh
   ls -l special.sh
   ```
+  <details>
+  <summary>Screenshot: set special permission</summary>
+
+  ![Set special permission](./.attachments/module01_047.png =950x)
+    
+  </details>
+
+
   A file that has SUID permission by default is ```/etc/passwd```, you can check on it with command.
   ``` bash
   ls -l /bin/passwd
   ```
+  <details>
+  <summary>Screenshot: example</summary>
+
+  ![example](./.attachments/module01_048.png =950x)
+    
+  </details>
+
 
 Step 3: Set special permission
 - Set SGID permission for the file ```special.sh``` and verify the permission:
@@ -730,10 +831,25 @@ Step 3: Set special permission
   chmod g+s special.sh
   ls -l special.sh
   ```
+  <details>
+  <summary>Screenshot: set special permission</summary>
+
+  ![Set special permission](./.attachments/module01_049.png =950x)
+    
+  </details>
+
+
   There are files that has SGID permission by default, but those depends on the distribution you're currently working you can find them with the following command.
   ``` bash
   find / -user root -perm -2000 -exec ls -ldb {} \;
   ```
+  <details>
+  <summary>Screenshot: find files</summary>
+
+  ![find files](./.attachments/module01_050.png =950x)
+    
+  </details>
+
 
 Step 4: Create a new folder
 - Create a new folder with name ```common``` and verify the permission
@@ -741,6 +857,13 @@ Step 4: Create a new folder
   mkdir common
   ls -ld common
   ```
+  <details>
+  <summary>Screenshot: Create folder</summary>
+
+  ![Create folder](./.attachments/module01_051.png =950x)
+   
+  </details>
+
 
 Step 5: Add the sticky bit to the folder
 - Set sticky bit permission to the directory ```common``` and verify the permission
@@ -748,9 +871,22 @@ Step 5: Add the sticky bit to the folder
   chmod o+t common
   ls -ld common
   ```
+  <details>
+  <summary>Screenshot: Sticky bit</summary>
+
+  ![Sticky bit](./.attachments/module01_052.png =950x)
+    
+  </details>
+
+
   A folder with sticky bit permission by default is /tmp, you can check on it with command: 
   ``` bash
   ls -ld /tmp
   ```
 
-[Return to main menu](https://github.com/mitchcr/specialist/blob/main/README.md)
+  <details>
+  <summary>Screenshot: example </summary>
+
+  ![Example](./.attachments/module01_053.png =950x)
+    
+  </details>
