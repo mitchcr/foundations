@@ -647,3 +647,5 @@ Step 11: Upgrade the SuSE distribution with zypper
   </details>
 
   **Note**: The ```zypper update``` refreshes all installed packages to their latest versions, while ```zypper upgrade``` also handles dependency changes and can install or remove packages as needed.
+
+[Return to main menu](https://github.com/mitchcr/specialist/blob/main/README.md)
