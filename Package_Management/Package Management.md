@@ -25,7 +25,7 @@ Step 1: Connecting to the VM  Lab 8 Scenario 1
   <details>
     <summary>Screenshot: switch to root account</summary>
 
-    ![Check for updates.](./.attachments/lab8img1.png =950x)
+    ![Check for updates.](./.attachments/lab8img1.png)
   </details>
 
 Step 2: Package manager file locator with rpm
@@ -36,7 +36,7 @@ Step 2: Package manager file locator with rpm
   <details>
     <summary>Screenshot: finding what package a file belongs to</summary>
 
-    ![Check for updates.](./.attachments/lab8img2.png =950x)
+    ![Check for updates.](./.attachments/lab8img2.png)
   </details>
 
 Step 3: Show package information with rpm
@@ -47,7 +47,7 @@ Step 3: Show package information with rpm
   <details>
     <summary>Screenshot: finding information on a package</summary>
 
-    ![Check for updates.](./.attachments/lab8img3.png =950x)
+    ![Check for updates.](./.attachments/lab8img3.png)
   </details>
 
 Step 4: Removing packages with rpm
@@ -58,7 +58,7 @@ Step 4: Removing packages with rpm
   <details>
     <summary>Screenshot: removing a package</summary>
 
-    ![Check for updates.](./.attachments/lab8img4.png =950x)
+    ![Check for updates.](./.attachments/lab8img4.png)
   </details>
 
 Step 5: Listing packages with rpm
@@ -70,7 +70,7 @@ Step 5: Listing packages with rpm
   <details>
     <summary>Screenshot: listing all rpms in system and save the outputs</summary>
 
-    ![Check for updates.](./.attachments/lab8img5.png =950x)
+    ![Check for updates.](./.attachments/lab8img5.png)
   </details>
 
 Step 6: Making a backup of the rpm database
@@ -81,7 +81,7 @@ Step 6: Making a backup of the rpm database
   <details>
     <summary>Screenshot: copying a directory</summary>
 
-    ![Check for updates.](./.attachments/lab8img6.png =950x)
+    ![Check for updates.](./.attachments/lab8img6.png)
   </details>
 
 Step 7: Rebuliding the rpm database
@@ -92,7 +92,7 @@ Step 7: Rebuliding the rpm database
   <details>
     <summary>Screenshot: rebuilding rpm database</summary>
 
-    ![Check for updates.](./.attachments/lab8img7.png =950x)
+    ![Check for updates.](./.attachments/lab8img7.png)
   </details>
 
 Step 8: Compare new and backup rpm database folders
@@ -105,7 +105,7 @@ Step 8: Compare new and backup rpm database folders
   <details>
     <summary>Screenshot: comparing directories contents</summary>
 
-    ![Check for updates.](./.attachments/lab8img8.png =950x)
+    ![Check for updates.](./.attachments/lab8img8.png)
   </details>
 
 Step 9: Listing all installed packages with rpm
@@ -117,12 +117,12 @@ Step 9: Listing all installed packages with rpm
   <details>
     <summary>Screenshot: listing all rpms in system and save the output </summary>
 
-    ![Check for updates.](./.attachments/lab8img9a.png =950x)
+    ![Check for updates.](./.attachments/lab8img9a.png)
   </details>
   <details>
     <summary>Screenshot: comparing file contents</summary>
 
-    ![Check for updates.](./.attachments/lab8img9b.png =950x)
+    ![Check for updates.](./.attachments/lab8img9b.png)
   </details>
 
 Step 10: Delete the rpm database backup
@@ -133,7 +133,7 @@ Step 10: Delete the rpm database backup
   <details>
     <summary>Screenshot: delete directory</summary>
 
-    ![Check for updates.](./.attachments/lab8img10.png =950x)
+    ![Check for updates.](./.attachments/lab8img10.png)
   </details>
 
 ### Scenario 2: Using yum
@@ -150,7 +150,7 @@ Step 1: Connecting to the VM  Lab 8 Scenario 2
   <details>
     <summary>Screenshot: switch to root account</summary>
 
-    ![Check for updates.](./.attachments/lab8img1.png =950x)
+    ![Check for updates.](./.attachments/lab8img1.png)
   </details>
 
 Step 2: Check updates with yum
@@ -163,7 +163,7 @@ Step 2: Check updates with yum
   <details>
     <summary>Screenshot: list available updates.</summary>
 
-    ![Check for updates.](./.attachments/lab8img11.png =950x)
+    ![Check for updates.](./.attachments/lab8img11.png)
   </details>
 
   **Note**: Using the first command, the system will prompt to apply pending updates. Abort with ```N``` to continue executing the remaining commands 
@@ -176,7 +176,7 @@ Step 3: Update an specific package with yum
   <details>
     <summary>Screenshot: update a package.</summary>
 
-    ![Check for updates.](./.attachments/lab8img12.png =950x)
+    ![Check for updates.](./.attachments/lab8img12.png)
   </details>
 
 Step 4: Listing specific packages with yum
@@ -188,7 +188,7 @@ Step 4: Listing specific packages with yum
   <details>
     <summary>Screenshot: search for installed and available package.</summary>
 
-    ![Check for updates.](./.attachments/lab8img13.png =950x)
+    ![Check for updates.](./.attachments/lab8img13.png)
   </details>
 
 Step 5: Installing a package with yum
@@ -199,7 +199,7 @@ Step 5: Installing a package with yum
   <details>
     <summary>Screenshot: start of the command execution.</summary>
 
-    ![Check for updates.](./.attachments/lab8img14.png =950x)
+    ![Check for updates.](./.attachments/lab8img14.png)
   </details>
 
 Step 6: Removing a package with yum
@@ -210,7 +210,7 @@ Step 6: Removing a package with yum
   <details>
     <summary>Screenshot: start of the command execution.</summary>
 
-    ![Check for updates.](./.attachments/lab8img15.png =950x)
+    ![Check for updates.](./.attachments/lab8img15.png)
   </details>
 
 Step 7: Search a package with yum
@@ -221,7 +221,7 @@ Step 7: Search a package with yum
   <details>
     <summary>Screenshot: find a package using references.</summary>
 
-    ![Check for updates.](./.attachments/lab8img16.png =950x)
+    ![Check for updates.](./.attachments/lab8img16.png)
   </details>
 
 Step 8: Find installed and available Packages with yum
@@ -232,7 +232,7 @@ Step 8: Find installed and available Packages with yum
   <details>
     <summary>Screenshot: list available packages.</summary>
 
-    ![Check for updates.](./.attachments/lab8img17.png =950x)
+    ![Check for updates.](./.attachments/lab8img17.png)
   </details>
 
 Step 9: Get package information with yum
@@ -243,7 +243,7 @@ Step 9: Get package information with yum
   <details>
     <summary>Screenshot: get package information.</summary>
 
-    ![Check for updates.](./.attachments/lab8img18.png =950x)
+    ![Check for updates.](./.attachments/lab8img18.png)
   </details>
 
 Step 10: Finding pacakge dependencies with yum
@@ -254,7 +254,7 @@ Step 10: Finding pacakge dependencies with yum
   <details>
     <summary>Screenshot: display package dependencies.</summary>
 
-    ![Check for updates.](./.attachments/lab8img19.png =950x)
+    ![Check for updates.](./.attachments/lab8img19.png)
   </details>
 
 
@@ -269,7 +269,7 @@ Step 11: Elevated permissions for yum
   <details>
     <summary>Screenshot: executing yum commands with normal user.</summary>
 
-    ![Check for updates.](./.attachments/lab8img20.png =950x)
+    ![Check for updates.](./.attachments/lab8img20.png)
   </details>
 
 Step 12: Additional yum utilies
@@ -280,7 +280,7 @@ Step 12: Additional yum utilies
   <details>
     <summary>Screenshot: installing a package using normal user.</summary>
 
-    ![Check for updates.](./.attachments/lab8img21.png =950x)
+    ![Check for updates.](./.attachments/lab8img21.png)
   </details>
 
 Step 13: Download a package file with yumdownloader
@@ -291,7 +291,7 @@ Step 13: Download a package file with yumdownloader
   <details>
     <summary>Screenshot: downloading a package without installing it.</summary>
 
-    ![Check for updates.](./.attachments/lab8img22.png =950x)
+    ![Check for updates.](./.attachments/lab8img22.png)
   </details>
 
 Step 14: Installing a downloaded package with yum
@@ -302,7 +302,7 @@ Step 14: Installing a downloaded package with yum
   <details>
     <summary>Screenshot: installing a local package, start of the command</summary>
 
-    ![Check for updates.](./.attachments/lab8img23.png =950x)
+    ![Check for updates.](./.attachments/lab8img23.png)
   </details>
 
 ###  Scenario 3: Using dpkg
@@ -325,7 +325,7 @@ Step 1: Connecting to the VM for Lab 8 Scenario 3
   <details>
     <summary>Screenshot: connecting to Ubuntu VM and switch to root</summary>
 
-    ![Check for updates.](./.attachments/lab8img24.png =950x)
+    ![Check for updates.](./.attachments/lab8img24.png)
   </details>
 
 Step 2: Package manager file locator with dpkg
@@ -336,7 +336,7 @@ Step 2: Package manager file locator with dpkg
   <details>
     <summary>Screenshot: package management</summary>
 
-    ![Check for updates.](./.attachments/lab8img25.png =950x)
+    ![Check for updates.](./.attachments/lab8img25.png)
   </details>
 
 Step 3: Show package information with dpkg
@@ -348,7 +348,7 @@ Step 3: Show package information with dpkg
   <details>
     <summary>Screenshot: package management (not the completed output)</summary>
 
-    ![Check for updates.](./.attachments/lab8img26.png =950x)
+    ![Check for updates.](./.attachments/lab8img26.png)
   </details>
 
 Step 4: Removing packages with dpkg
@@ -359,7 +359,7 @@ Step 4: Removing packages with dpkg
   <details>
     <summary>Screenshot: remove a package</summary>
 
-    ![Check for updates.](./.attachments/lab8img27.png =950x)
+    ![Check for updates.](./.attachments/lab8img27.png)
   </details>
 
 Step 5: Listing packages with dpkg
@@ -370,7 +370,7 @@ Step 5: Listing packages with dpkg
   <details>
     <summary>Screenshot: list installed packages (not the complete output)</summary>
 
-    ![Check for updates.](./.attachments/lab8img28.png =950x)
+    ![Check for updates.](./.attachments/lab8img28.png)
   </details>
 
 Step 6: Verify installed packages with dpkg
@@ -381,7 +381,7 @@ Step 6: Verify installed packages with dpkg
   <details>
     <summary>Screenshot: search for an installed package</summary>
 
-    ![Check for updates.](./.attachments/lab8img29.png =950x)
+    ![Check for updates.](./.attachments/lab8img29.png)
   </details>
 
 
@@ -397,7 +397,7 @@ Step 1: Connecting to the VM with apt
   <details>
     <summary>Screenshot: connecting to Ubuntu VM and switch to root</summary>
 
-    ![Check for updates.](./.attachments/lab8img24.png =950x)
+    ![Check for updates.](./.attachments/lab8img24.png)
   </details>
 
 Step 2: Updating the package index files with apt
@@ -408,7 +408,7 @@ Step 2: Updating the package index files with apt
   <details>
     <summary>Screenshot: update package list</summary>
 
-    ![Check for updates.](./.attachments/lab8img30.png =950x)
+    ![Check for updates.](./.attachments/lab8img30.png)
   </details>
 
 Step 3: Updating installed packages with apt
@@ -419,7 +419,7 @@ Step 3: Updating installed packages with apt
   <details>
     <summary>Screenshot: upgrade packages</summary>
 
-    ![Check for updates.](./.attachments/lab8img31.png =950x)
+    ![Check for updates.](./.attachments/lab8img31.png)
   </details>
 
 Step 4: Removing non required packages with apt
@@ -430,7 +430,7 @@ Step 4: Removing non required packages with apt
   <details>
     <summary>Screenshot: remove packages no longer needed</summary>
 
-    ![Check for updates.](./.attachments/lab8img32.png =950x)
+    ![Check for updates.](./.attachments/lab8img32.png)
   </details>
 
 Step 5: Installing a package with apt
@@ -441,7 +441,7 @@ Step 5: Installing a package with apt
   <details>
     <summary>Screenshot: install a package (not all the output in the screenshot)</summary>
 
-    ![Check for updates.](./.attachments/lab8img33.png =950x)
+    ![Check for updates.](./.attachments/lab8img33.png)
   </details>
 
 Step 6: Removing a package with apt
@@ -452,7 +452,7 @@ Step 6: Removing a package with apt
   <details>
     <summary>Screenshot: remove a package</summary>
 
-    ![Check for updates.](./.attachments/lab8img34.png =950x)
+    ![Check for updates.](./.attachments/lab8img34.png)
   </details>
 
 Step 7: Reinstalling a package non-interactively with apt
@@ -463,7 +463,7 @@ Step 7: Reinstalling a package non-interactively with apt
   <details>
     <summary>Screenshot: install a package (not all the output in the screenshot)</summary>
 
-    ![Check for updates.](./.attachments/lab8img33.png =950x)
+    ![Check for updates.](./.attachments/lab8img33.png)
   </details>
 
 Step 8: Removing a package with its configuration files with apt
@@ -478,12 +478,12 @@ Step 8: Removing a package with its configuration files with apt
   <details>
     <summary>Screenshot: remove a package with purge</summary>
 
-    ![Check for updates.](./.attachments/lab8img35a.png =950x)
+    ![Check for updates.](./.attachments/lab8img35a.png)
   </details>
   <details>
     <summary>Screenshot: remove a package with remove</summary>
 
-    ![Check for updates.](./.attachments/lab8img35b.png =950x)
+    ![Check for updates.](./.attachments/lab8img35b.png)
   </details>
 
   **Note**: Using autoremove might be required as well to remove all the package left that were installed as dependencies
@@ -496,7 +496,7 @@ Step 9: Checking the changelog of a package with apt
   <details>
     <summary>Screenshot: get a package change log (start of the file)</summary>
 
-    ![Check for updates.](./.attachments/lab8img36.png =950x)
+    ![Check for updates.](./.attachments/lab8img36.png)
   </details>
 
   **Note**: The package doesn't need to be installed and to go out of the change log you can use lower case letter q.
@@ -509,7 +509,7 @@ Step 10: Making a full system upgrade with apt
   <details>
     <summary>Screenshot: get a package change log (start of the file)</summary>
 
-    ![Check for updates.](./.attachments/lab8img37.png =950x)
+    ![Check for updates.](./.attachments/lab8img37.png)
   </details>
 
    **Note**: This is not going to do a major version upgrade.
@@ -533,7 +533,7 @@ Step 1: Connecting to the VM
   <details>
     <summary>Screenshot: connecting to SuSE VM and switch to root</summary>
 
-    ![Check for updates.](./.attachments/lab8img38.png =950x)
+    ![Check for updates.](./.attachments/lab8img38.png)
   </details>
 
 Step 2: Search a package with zypper
@@ -544,7 +544,7 @@ Step 2: Search a package with zypper
   <details>
     <summary>Screenshot: search for a package</summary>
 
-    ![Check for updates.](./.attachments/lab8img39.png =950x)
+    ![Check for updates.](./.attachments/lab8img39.png)
   </details>
 
 Step 3: Listing repositories with zypper
@@ -555,7 +555,7 @@ Step 3: Listing repositories with zypper
   <details>
     <summary>Screenshot: list repositories (first part of the command)</summary>
 
-    ![Check for updates.](./.attachments/lab8img40.png =950x)
+    ![Check for updates.](./.attachments/lab8img40.png)
   </details>
 
 Step 4: Installing a package with zypper
@@ -566,7 +566,7 @@ Step 4: Installing a package with zypper
   <details>
     <summary>Screenshot: install a package</summary>
 
-    ![Check for updates.](./.attachments/lab8img41.png =950x)
+    ![Check for updates.](./.attachments/lab8img41.png)
   </details>
 
 Step 5: Removing packages with zypper
@@ -577,7 +577,7 @@ Step 5: Removing packages with zypper
   <details>
     <summary>Screenshot: remove a package</summary>
 
-    ![Check for updates.](./.attachments/lab8img42.png =950x)
+    ![Check for updates.](./.attachments/lab8img42.png)
   </details>
 
 Step 6: Updating packages with zypper
@@ -588,7 +588,7 @@ Step 6: Updating packages with zypper
   <details>
     <summary>Screenshot: update installed packages (start of the command)</summary>
 
-    ![Check for updates.](./.attachments/lab8img43.png =950x)
+    ![Check for updates.](./.attachments/lab8img43.png)
   </details>
 
 Step 7: Reinstalling a package non-interactively with zypper
@@ -599,7 +599,7 @@ Step 7: Reinstalling a package non-interactively with zypper
   <details>
     <summary>Screenshot: install a package</summary>
 
-    ![Check for updates.](./.attachments/lab8img44.png =950x)
+    ![Check for updates.](./.attachments/lab8img44.png)
   </details>
 
 Step 8: Removing a package  non-interactively with zypper
@@ -610,7 +610,7 @@ Step 8: Removing a package  non-interactively with zypper
   <details>
     <summary>Screenshot: remove a package</summary>
 
-    ![Check for updates.](./.attachments/lab8img45.png =950x)
+    ![Check for updates.](./.attachments/lab8img45.png)
   </details>
 
 Step 9: Clean Zypper package cache downloads with zypper
@@ -621,7 +621,7 @@ Step 9: Clean Zypper package cache downloads with zypper
   <details>
     <summary>Screenshot: clean cache</summary>
 
-    ![Check for updates.](./.attachments/lab8img46.png =950x)
+    ![Check for updates.](./.attachments/lab8img46.png)
   </details>
 
 Step 10: Clean Zypper metadata and package caches with zypper
@@ -632,7 +632,7 @@ Step 10: Clean Zypper metadata and package caches with zypper
   <details>
     <summary>Screenshot: clean cache and metadata</summary>
 
-    ![Check for updates.](./.attachments/lab8img46.png =950x)
+    ![Check for updates.](./.attachments/lab8img46.png)
   </details>
 
 Step 11: Upgrade the SuSE distribution with zypper
@@ -643,7 +643,7 @@ Step 11: Upgrade the SuSE distribution with zypper
   <details>
     <summary>Screenshot: upgrade the distribution (beginning of the command)</summary>
 
-    ![Check for updates.](./.attachments/lab8img47.png =950x)
+    ![Check for updates.](./.attachments/lab8img47.png)
   </details>
 
   **Note**: The ```zypper update``` refreshes all installed packages to their latest versions, while ```zypper upgrade``` also handles dependency changes and can install or remove packages as needed.
