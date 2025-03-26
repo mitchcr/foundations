@@ -890,3 +890,5 @@ Step 5: Add the sticky bit to the folder
   ![Example](./.attachments/module01_053.png =950x)
     
   </details>
+
+[Return to main menu](https://github.com/mitchcr/specialist/blob/main/README.md)
