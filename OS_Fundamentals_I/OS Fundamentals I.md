@@ -192,7 +192,7 @@ Step 12: Create foundationvm2 VM
 #### Instructions Lab 1 Scenario 2 
 
 Step 1: Opening Azure Cloud Shell
-- You can use the portal [https://shell.azure.com](https://shell.azure.com) or through a new tab on Windows Terminal, we are going to show this way.
+- You can use the portal [https://shell.azure.com](https://shell.azure.com), cloud shell or a new tab on Windows Terminal. We are going to show images from using Windows Terminal.
 
   > Initial setup must be done through the web portal to define the required storage account. Select bash for the Azure Cloud Shell.
 
