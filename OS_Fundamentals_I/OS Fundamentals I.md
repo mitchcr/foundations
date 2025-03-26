@@ -34,7 +34,7 @@ Step 1: Check for Updates
   <details>
     <summary>Screenshot: Check for Updates</summary>
 
-    ![Check for updates.](./.attachments/module01_001.png =950x)
+    ![Check for updates.](./.attachments/module01_001.png)
   </details>
 
 Step 2: Install WSL
@@ -45,7 +45,7 @@ Step 2: Install WSL
   <details>
     <summary>Screenshot: Install WSL</summary>
 
-    ![Execute wsl --install.](./.attachments/module01_002.png =950x)
+    ![Execute wsl --install.](./.attachments/module01_002.png)
   </details>
 
 Step 3: Finish Ubuntu installation
@@ -53,7 +53,7 @@ Step 3: Finish Ubuntu installation
   <details>
     <summary>Screenshot: Finish Ubuntu Installation</summary>
 
-    ![Ubuntu installation.](./.attachments/module01_003.png =950x)
+    ![Ubuntu installation.](./.attachments/module01_003.png)
   </details>
 
 Step 4: Get Windows Terminal
@@ -61,7 +61,7 @@ Step 4: Get Windows Terminal
   <details>
     <summary>Screenshot: Windows Terminal</summary>
 
-    ![Windows Terminal installation.](./.attachments/module01_004.png =950x)
+    ![Windows Terminal installation.](./.attachments/module01_004.png)
   </details>
 
 Step 5: Open Ubuntu
@@ -69,7 +69,7 @@ Step 5: Open Ubuntu
   <details>
     <summary>Screenshot: Open Ubuntu</summary>
 
-    ![Windows Terminal installation.](./.attachments/module01_005.png =950x)
+    ![Windows Terminal installation.](./.attachments/module01_005.png)
   </details>
 
 Step 6: Install Linux Software Repository for Microsoft Products
@@ -99,7 +99,7 @@ Step 6: Install Linux Software Repository for Microsoft Products
   <details>
     <summary>Screenshot: Install Linux Software Repository for Microsoft Products</summary>
 
-    ![Add Linux Software Repository for Microsoft Products.](./.attachments/module01_006.png =950x)
+    ![Add Linux Software Repository for Microsoft Products.](./.attachments/module01_006.png)
   </details>
 
 Step 7: Install Azure CLI
@@ -110,7 +110,7 @@ Step 7: Install Azure CLI
   <details>
     <summary>Screenshot: Install Azure CLI</summary>
 
-    ![Install Azure CLI.](./.attachments/module01_007.png =950x)
+    ![Install Azure CLI.](./.attachments/module01_007.png)
   </details>
 
 Step 8: Log in to Azure
@@ -123,7 +123,7 @@ Step 8: Log in to Azure
   <details>
     <summary>Screenshot: Log in to Azure</summary>
 
-    ![Log in to Azure.](./.attachments/module01_008.png =950x)
+    ![Log in to Azure.](./.attachments/module01_008.png)
   </details>
 
 Step 9: Using Azure CLI
@@ -137,7 +137,7 @@ Step 9: Using Azure CLI
   <details>
     <summary>Screenshot: List Azure Subscriptions and set the default</summary>
 
-    ![Get subscriptions and define default.](./.attachments/module01_009.png =950x)
+    ![Get subscriptions and define default.](./.attachments/module01_009.png)
   </details>
 
 Step 10: Azure CLI Help
@@ -165,7 +165,7 @@ Step 11: Create foundationvm1 VM
   <details>
     <summary>Screenshot: Create resource group and foundationvm1 VM</summary>
 
-    ![Create a foundationvm1 using Azure CLI.](./.attachments/module01_010.png =950x)
+    ![Create a foundationvm1 using Azure CLI.](./.attachments/module01_010.png)
     > Notice the files inside the directory .ssh ```id_rsa``` is the ssh
     > private key and ```id_rsa.pub``` is the ssh public key.
   </details>
@@ -184,7 +184,7 @@ Step 12: Create foundationvm2 VM
   <details>
     <summary>Screenshot: Create foundationvm2 VM</summary>
 
-    ![Create foundationvm2 VM.](./.attachments/module01_011.png =950x)
+    ![Create foundationvm2 VM.](./.attachments/module01_011.png)
   </details>
 
 ### Scenario 2: Using Azure Cloud Shell
@@ -201,7 +201,7 @@ Step 1: Opening Azure Cloud Shell
   <details>
     <summary>Screenshot: Using Azure Cloud Shell</summary>
 
-    ![Open Azure Cloud Shell.](./.attachments/module01_012.png =950x)
+    ![Open Azure Cloud Shell.](./.attachments/module01_012.png)
   </details>
 
 Step 2: Azure Cloud Shell
@@ -215,7 +215,7 @@ Step 2: Azure Cloud Shell
   <details>
     <summary>Screenshot: Initial use of Azure Cloud Shell</summary>
 
-    ![Using Azure Cloud Shell.](./.attachments/module01_013.png =950x)
+    ![Using Azure Cloud Shell.](./.attachments/module01_013.png)
   </details>
 
 Step 3: Connect to foundationvm1
@@ -231,7 +231,7 @@ Step 3: Connect to foundationvm1
   <details>
     <summary>Screenshot: Connection to foundationvm1 from Azure Cloud Shell</summary>
 
-    ![Connect to foundationvm1.](./.attachments/module01_014.png =950x)
+    ![Connect to foundationvm1.](./.attachments/module01_014.png)
   </details>
 
 Step 4: Generate new ssh keys
@@ -246,7 +246,7 @@ Step 4: Generate new ssh keys
   <details>
     <summary>Screenshot: Create a new set of ssh keys</summary>
 
-    ![Generate new ssh keys.](./.attachments/module01_015.png =950x)
+    ![Generate new ssh keys.](./.attachments/module01_015.png)
   </details>
 
 Step 5: Update the VM's user information on foundationvm1
@@ -263,7 +263,7 @@ Step 5: Update the VM's user information on foundationvm1
   <details>
     <summary>Screenshot: Update ssh key</summary>
 
-    ![Update ssh key on foundationvm1.](./.attachments/module01_016.png =950x)
+    ![Update ssh key on foundationvm1.](./.attachments/module01_016.png)
   </details>
 
 ##  Lab 2 - User and groups administration
@@ -291,7 +291,7 @@ Step 1: Create a list of users through the file /etc/passwd
   <details>
     <summary>Screenshot: List users on the system using the file /etc/passwd</summary>
 
-    ![Execute cat /etc/passwd](./.attachments/module01_017.png =950x)
+    ![Execute cat /etc/passwd](./.attachments/module01_017.png)
   </details>
 
 Step 2: Create a list of users through getent
@@ -302,7 +302,7 @@ Step 2: Create a list of users through getent
   <details>
     <summary>Screenshot: List users on the system using getent</summary>
 
-    ![Execute getent passwd.](./.attachments/module01_018.png =950x)
+    ![Execute getent passwd.](./.attachments/module01_018.png)
   </details>
 
 Step 3: Create some users
@@ -323,7 +323,7 @@ Step 3: Create some users
     <details>
     <summary>Screenshot: Create four users with a loop</summary>
 
-    ![Create several users.](./.attachments/module01_019.png =950x)
+    ![Create several users.](./.attachments/module01_019.png)
     </details>
 
 Step 4: Set the password for created users
@@ -343,12 +343,12 @@ Step 4: Set the password for created users
   <details>
     <summary>Screenshot: Change the password for all the users, batch mode and manually for Ubuntu and Debian</summary>
 
-    ![Change user's passwords.](./.attachments/module01_020.png =950x)
+    ![Change user's passwords.](./.attachments/module01_020.png)
   </details>
   <details>
     <summary>Screenshot: Change the password for all the users, batch mode in other distributions</summary>
 
-    ![Change user's passwords.](./.attachments/module01_021.png =950x)
+    ![Change user's passwords.](./.attachments/module01_021.png)
   </details>
 
   > For other distributions the same passwd could be use with the flag --stdin
@@ -367,7 +367,7 @@ Step 5: Make sure the password authentication is enabled for sshd
   <details>
     <summary>Screenshot: Change the PasswordAuthentication parameter on /etc/ssh/sshd_config</summary>
 
-    ![Change PasswordAuthentication.](./.attachments/module01_022.png =950x)
+    ![Change PasswordAuthentication.](./.attachments/module01_022.png)
   </details>
 
 Step 6: Delete some users
@@ -383,7 +383,7 @@ Step 6: Delete some users
   <details>
     <summary>Screenshot: Delete user01 and user02</summary>
 
-    ![Delete users.](./.attachments/module01_023.png =950x)
+    ![Delete users.](./.attachments/module01_023.png)
   </details>
 
 - Check the latest lines in groups file on the system.
@@ -393,7 +393,7 @@ Step 6: Delete some users
   <details>
     <summary>Screenshot: Check current groups</summary>
 
-    ![Check groups.](./.attachments/module01_024.png =950x)
+    ![Check groups.](./.attachments/module01_024.png)
   </details>
 
   > For each user a new group has been created using the same name. As the users are removed, those groups are removed as well
@@ -413,7 +413,7 @@ Step 7: Create additional groups and assign users to those groups
   <details>
     <summary>Screenshot: Create groups and assign those groups to users</summary>
 
-    ![Groups administration.](./.attachments/module01_025.png =950x)
+    ![Groups administration.](./.attachments/module01_025.png)
   </details>
 
 ## Lab 3 - File operations, manipulating and finding files
@@ -445,7 +445,7 @@ Step 1: Create an empty file inside a new directory
   <details>
     <summary>Screenshot: Create an empty file inside a new directory</summary>
 
-    ![Execute create empty file inside a new directory](./.attachments/module01_026.png =950x)
+    ![Execute create empty file inside a new directory](./.attachments/module01_026.png)
   </details>
 
   > The directory ~ refers to the actual home directory
@@ -463,7 +463,7 @@ Step 2: Create files using redirection
   <details>
     <summary>Screenshot: Create an empty file inside a new directory</summary>
 
-    ![Create files using redirection](./.attachments/module01_027.png =950x)
+    ![Create files using redirection](./.attachments/module01_027.png)
   </details>
 
 Step 3: Copy and move the test files
@@ -481,7 +481,7 @@ Step 3: Copy and move the test files
   <details>
     <summary>Screenshot: Copy, moving and renaming</summary>
 
-    ![Copy, renaming and moving files](./.attachments/module01_028.png =950x)
+    ![Copy, renaming and moving files](./.attachments/module01_028.png)
   </details>
 
   > Notice sudo may or may not ask for your password depending in the sudoers configuration
@@ -497,7 +497,7 @@ Step 4: Finding files in the system
   <details>
     <summary>Screenshot: Finding files</summary>
 
-    ![Finding files](./.attachments/module01_029.png =950x)
+    ![Finding files](./.attachments/module01_029.png)
   </details>
 
   > Notice sudo may be required to find files if the root user is not been used to avoid permission denied errors
@@ -514,7 +514,7 @@ Step 5: Deleting directory used on this lab
   <details>
     <summary>Screenshot: Deleting a directory</summary>
 
-    ![Finding files](./.attachments/module01_030.png =950x)
+    ![Finding files](./.attachments/module01_030.png)
   </details>
 
   > Notice rmdir will only work only if the directory has no content. If it's required to delete a directory that contains files, it's required to use rm -r which it will delete everything
@@ -546,7 +546,7 @@ Step 1: Install the stress utility
   <details>
     <summary>Screenshot: Install and run the stress utility</summary>
 
-    ![Install and run stress utility](./.attachments/module01_031.png =950x)
+    ![Install and run stress utility](./.attachments/module01_031.png)
   </details>
 
   > The execution of the stress utility is running in the foreground. Leave the process running in this terminal!
@@ -560,8 +560,8 @@ Step 2: CPU information
   <details>
     <summary>Screenshot: Get the CPU information</summary>
 
-    ![List CPU details](./.attachments/module01_032a.png =950x)
-    ![List CPU details](./.attachments/module01_032b.png =950x)
+    ![List CPU details](./.attachments/module01_032a.png)
+    ![List CPU details](./.attachments/module01_032b.png)
   </details>
 
   > Notice even though the model name of the CPU may indicate certain amount of cores this is only for the host, the VM will have just a fraction of the real numbers on the host. For example foundationvm1 appears as an Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz which on Intel's product details says 26 cores and 52 threads, the VM reports 2 cores and 2 threads for a total of 4 CPUs. The relationship ratios between physical core and vCPU may vary depending on VM SKU family https://learn.microsoft.com/en-us/azure/virtual-machines/acu
@@ -575,7 +575,7 @@ Step 3: Memory information
   <details>
     <summary>Screenshot: Get the memory information</summary>
 
-    ![List memory details](./.attachments/module01_033.png =950x)
+    ![List memory details](./.attachments/module01_033.png)
   </details>
 
   > Notice sudo may or may not ask for your password depending in the sudoers configuration
@@ -588,7 +588,7 @@ Step 4: Using top
   <details>
     <summary>Screenshot: Executing top</summary>
 
-    ![Executing top](./.attachments/module01_034.png =950x)
+    ![Executing top](./.attachments/module01_034.png)
   </details>
 
   > Notice the PID number that is associated with each stress process as well as check the %CPU with the CPU consumption details. Those are the top CPU consumers at this moment.
@@ -605,9 +605,9 @@ Step 5: Listing processes
   <details>
     <summary>Screenshot: Listing processes</summary>
 
-    ![Using ps and pgrep](./.attachments/module01_035a.png =950x)
-    ![Using ps and pgrep](./.attachments/module01_035b.png =950x)
-    ![Using ps and pgrep](./.attachments/module01_035c.png =950x)
+    ![Using ps and pgrep](./.attachments/module01_035a.png)
+    ![Using ps and pgrep](./.attachments/module01_035b.png)
+    ![Using ps and pgrep](./.attachments/module01_035c.png)
   </details>
 
 
@@ -647,7 +647,7 @@ Step 1: Create a directory
   <details>
   <summary>Screenshot: Creating a directory</summary>
 
-  ![Creating a directory](./.attachments/module01_036.png =950x)
+  ![Creating a directory](./.attachments/module01_036.png)
   </details>
 
 
@@ -661,7 +661,7 @@ Step 2: Create a file
   <details>
   <summary>Screenshot: create a file</summary>
 
-  ![Create a file](./.attachments/module01_037.png =950x)
+  ![Create a file](./.attachments/module01_037.png)
     
   </details>
 
@@ -674,7 +674,7 @@ Step 3: Set the permissions
   <details>
   <summary>Screenshot: Set permissions</summary>
 
-  ![Set permissions](./.attachments/module01_038.png =950x)
+  ![Set permissions](./.attachments/module01_038.png)
     
   </details>
 
@@ -687,7 +687,7 @@ Step 4: Check the permissions
   <details>
   <summary>Screenshot: check permissions</summary>
 
-  ![check permissions](./.attachments/module01_039.png =950x)
+  ![check permissions](./.attachments/module01_039.png)
     
   </details>
 
@@ -702,7 +702,7 @@ Step 5: Change permissions
   <details>
   <summary>Screenshot: change permissions</summary>
 
-  ![change permissions](./.attachments/module01_040.png =950x)
+  ![change permissions](./.attachments/module01_040.png)
     
   </details>
 
@@ -720,7 +720,7 @@ Step 1: Create a new directory
   <details>
   <summary>Screenshot: Create directory</summary>
 
-  ![create directory](./.attachments/module01_041.png =950x)
+  ![create directory](./.attachments/module01_041.png)
     
   </details>
 
@@ -734,7 +734,7 @@ Step 2: Change ownership of the directory
   <details>
   <summary>Screenshot: Change directory ownership</summary>
 
-  ![change directory ownership](./.attachments/module01_042.png =950x)
+  ![change directory ownership](./.attachments/module01_042.png)
     
   </details>
 
@@ -748,7 +748,7 @@ Step 3: List the changes
   <details>
   <summary>Screenshot: Listing changes</summary>
 
-  ![list changes](./.attachments/module01_043.png =950x)
+  ![list changes](./.attachments/module01_043.png)
     
   </details>
 
@@ -762,7 +762,7 @@ Step 4: Change group ownership
   <details>
   <summary>Screenshot: Change group ownership</summary>
 
-  ![Change group ownership](./.attachments/module01_044.png =950x)
+  ![Change group ownership](./.attachments/module01_044.png)
     
   </details>
 
@@ -775,7 +775,7 @@ Step 5: Another way to change user and group ownership
   <details>
   <summary>Screenshot: change ownership</summary>
 
-  ![Change ownership](./.attachments/module01_045.png =950x)
+  ![Change ownership](./.attachments/module01_045.png)
     
   </details>
 
@@ -794,7 +794,7 @@ Step 1: Using the VM foundationvm1 create a file ```special.sh```
   <details>
   <summary>Screenshot: Creating file</summary>
 
-  ![Creating file](./.attachments/module01_046.png =950x)
+  ![Creating file](./.attachments/module01_046.png)
     
   </details>
 
@@ -808,7 +808,7 @@ Step 2: Set special permission
   <details>
   <summary>Screenshot: set special permission</summary>
 
-  ![Set special permission](./.attachments/module01_047.png =950x)
+  ![Set special permission](./.attachments/module01_047.png)
     
   </details>
 
@@ -820,7 +820,7 @@ Step 2: Set special permission
   <details>
   <summary>Screenshot: example</summary>
 
-  ![example](./.attachments/module01_048.png =950x)
+  ![example](./.attachments/module01_048.png)
     
   </details>
 
@@ -834,7 +834,7 @@ Step 3: Set special permission
   <details>
   <summary>Screenshot: set special permission</summary>
 
-  ![Set special permission](./.attachments/module01_049.png =950x)
+  ![Set special permission](./.attachments/module01_049.png)
     
   </details>
 
@@ -846,7 +846,7 @@ Step 3: Set special permission
   <details>
   <summary>Screenshot: find files</summary>
 
-  ![find files](./.attachments/module01_050.png =950x)
+  ![find files](./.attachments/module01_050.png)
     
   </details>
 
@@ -860,7 +860,7 @@ Step 4: Create a new folder
   <details>
   <summary>Screenshot: Create folder</summary>
 
-  ![Create folder](./.attachments/module01_051.png =950x)
+  ![Create folder](./.attachments/module01_051.png)
    
   </details>
 
@@ -874,7 +874,7 @@ Step 5: Add the sticky bit to the folder
   <details>
   <summary>Screenshot: Sticky bit</summary>
 
-  ![Sticky bit](./.attachments/module01_052.png =950x)
+  ![Sticky bit](./.attachments/module01_052.png)
     
   </details>
 
@@ -887,7 +887,7 @@ Step 5: Add the sticky bit to the folder
   <details>
   <summary>Screenshot: example </summary>
 
-  ![Example](./.attachments/module01_053.png =950x)
+  ![Example](./.attachments/module01_053.png)
     
   </details>
 
