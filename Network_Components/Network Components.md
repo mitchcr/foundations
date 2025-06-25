@@ -287,7 +287,7 @@ Step 8: Connecting to the VM lab10sles
 Step 9: Check the status of Wicked
 - Check the status of Wicked systemd unit
   ``` bash
-  systemctl -l --no-pager status cloud-init # Displays the complete, untruncated status of the Wicked service without using a pager, which is particularly useful when working with the serial console.
+  systemctl -l --no-pager status wicked # Displays the complete, untruncated status of the Wicked service without using a pager, which is particularly useful when working with the serial console.
   ```
   > **Note:** Check the unit is ```enabled```, ```active```. This time appears as ```exited``` configures the network interfaces (lo, eth0), and then exits successfully with a status of 0
 
