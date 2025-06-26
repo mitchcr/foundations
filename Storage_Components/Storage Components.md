@@ -87,7 +87,7 @@ Step 4: Mounting a filesystem
   ``` bash
   mkdir /datadrive # Creates the directory /datadrive
   mkfs.xfs /dev/sdc1 # Create a new XFS filesystem over the block device /dev/sdc1
-  blkid /dev/sdc1 | This will return information about the block device and first created partition
+  blkid /dev/sdc1 # This will return information about the block device and first created partition
   echo "$(blkid | grep /dev/sdc1 | awk '{print $2}') /datadrive xfs defaults,nofail 0 0" # This will print to screen the required line to mount this filesystem across reboots
   echo "$(blkid | grep /dev/sdc1 | awk '{print $2}') /datadrive xfs defaults,nofail 0 0" >> /etc/fstab # After checking previous line is correct, this line can be added to the end for the file /etc/fstab
   mount -a # Mount all filesystems
