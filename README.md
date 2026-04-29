@@ -1,6 +1,10 @@
 # Foundations Labs
 
-Please use the NEW Labs available in the following [link](https://github.com/jonathanbrenes/specialist)  The ones listed here will soon be deprecated.
+## Please use the NEW Labs available in the following [link](https://github.com/jonathanbrenes/specialist)  The ones listed here will soon be deprecated.
+
+
+
+
 
 Click on the desired module to follow the laboratories: 
 -  [Module 1 - OS Fundamentals I](https://github.com/mitchcr/foundations/blob/main/OS_Fundamentals_I/OS%20Fundamentals%20I.md)
