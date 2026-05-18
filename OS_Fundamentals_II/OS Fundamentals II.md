@@ -1,5 +1,7 @@
 # Module 2 - OS Fundamentals II Laboratories
 
+## Please use the NEW Labs available in the following [link](https://github.com/jonathanbrenes/foundations/tree/main/Module%202%20-%20OS%20Fundamentals%20II)  The ones listed here will soon be deprecated.
+
 ##  Lab 6 - Hard and soft links
 
 ### About Lab 6
