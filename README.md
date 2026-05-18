@@ -1,6 +1,6 @@
 # Foundations Labs
 
-## Please use the NEW Labs available in the following [link](https://github.com/jonathanbrenes/specialist)  The ones listed here will soon be deprecated.
+## Please use the NEW Labs available in the following [link](https://github.com/jonathanbrenes/foundations)  The ones listed here will soon be deprecated.
 
 
 
