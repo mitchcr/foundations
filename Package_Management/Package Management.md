@@ -1,5 +1,7 @@
 # Module 3 - Package Management Laboratories
 
+## Please use the NEW Labs available in the following [link](https://github.com/jonathanbrenes/foundations/tree/main/Module%203%20-%20Package%20Management)  The ones listed here will soon be deprecated.
+
 ##  Lab 8 - Package Management
 
 ### About this lab
