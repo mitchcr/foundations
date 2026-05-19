@@ -1,5 +1,7 @@
 ## Lab 11 - Storage Management
 
+## Please use the NEW Labs available in the following [link](https://github.com/jonathanbrenes/foundations/blob/main/Module%206%20-%20Storage%20Components/Storage%20Components.md)  The ones listed here will soon be deprecated.
+
 ### About this lab
 
 - These laboratories will take approximately 90 minutes.
